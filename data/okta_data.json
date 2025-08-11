@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pol123",
+    "name": "Default Policy",
+    "description": "Standard Okta password policy",
+    "settings": {"minLength": 8, "complexity": "high"},
+    "groupIds": ["grp001", "grp002"],
+    "groupNames": ["Admins", "Users"],
+    "created": "2023-06-01T12:00:00Z",
+    "lastUpdated": "2024-01-10T15:00:00Z"
+  },
+  {
+    "id": "pol124",
+    "name": "Strict Policy",
+    "description": "High security enforcement",
+    "settings": {"minLength": 12, "complexity": "very-high"},
+    "groupIds": ["grp003"],
+    "groupNames": ["Privileged Users"],
+    "created": "2023-06-05T14:00:00Z",
+    "lastUpdated": "2024-01-11T12:00:00Z"
+  },
+  {
+    "id": "pol125",
+    "name": "Legacy Users Policy",
+    "description": "Policy for older user groups",
+    "settings": {"minLength": 6, "complexity": "medium"},
+    "groupIds": ["grp004"],
+    "groupNames": ["Legacy Team"],
+    "created": "2022-01-01T08:00:00Z",
+    "lastUpdated": "2023-03-12T10:00:00Z"
+  },
+  {
+    "id": "pol126",
+    "name": "External Contractors",
+    "description": "Looser restrictions for external vendors",
+    "settings": {"minLength": 8, "complexity": "low"},
+    "groupIds": ["grp005"],
+    "groupNames": ["Vendors"],
+    "created": "2022-07-15T11:00:00Z",
+    "lastUpdated": "2023-08-30T09:00:00Z"
+  },
+  {
+    "id": "pol127",
+    "name": "Admin Tier 1",
+    "description": "Admin-level password complexity",
+    "settings": {"minLength": 10, "complexity": "high"},
+    "groupIds": ["grp006"],
+    "groupNames": ["Tier 1 Admins"],
+    "created": "2023-02-10T12:00:00Z",
+    "lastUpdated": "2023-11-20T13:00:00Z"
+  },
+  {
+    "id": "pol128",
+    "name": "Dev Team Policy",
+    "description": "Specific policy for software engineers",
+    "settings": {"minLength": 9, "complexity": "medium"},
+    "groupIds": ["grp007"],
+    "groupNames": ["Developers"],
+    "created": "2023-03-03T10:30:00Z",
+    "lastUpdated": "2024-01-05T16:00:00Z"
+  },
+  {
+    "id": "pol129",
+    "name": "Finance Policy",
+    "description": "High complexity for finance users",
+    "settings": {"minLength": 10, "complexity": "very-high"},
+    "groupIds": ["grp008"],
+    "groupNames": ["Finance Dept"],
+    "created": "2023-04-01T07:45:00Z",
+    "lastUpdated": "2024-02-14T10:00:00Z"
+  },
+  {
+    "id": "pol130",
+    "name": "Marketing Policy",
+    "description": "Marketing department password policy",
+    "settings": {"minLength": 8, "complexity": "medium"},
+    "groupIds": ["grp009"],
+    "groupNames": ["Marketing"],
+    "created": "2022-12-20T11:00:00Z",
+    "lastUpdated": "2023-10-01T14:00:00Z"
+  },
+  {
+    "id": "pol131",
+    "name": "HR Team Policy",
+    "description": "Policy for HR staff",
+    "settings": {"minLength": 9, "complexity": "high"},
+    "groupIds": ["grp010"],
+    "groupNames": ["Human Resources"],
+    "created": "2022-05-25T09:00:00Z",
+    "lastUpdated": "2023-05-25T09:00:00Z"
+  },
+  {
+    "id": "pol132",
+    "name": "Support Policy",
+    "description": "Customer support password rules",
+    "settings": {"minLength": 7, "complexity": "medium"},
+    "groupIds": ["grp011"],
+    "groupNames": ["Support"],
+    "created": "2022-08-08T13:00:00Z",
+    "lastUpdated": "2023-09-10T14:00:00Z"
+  },
+  {
+    "id": "pol133",
+    "name": "Sales Policy",
+    "description": "Sales team complexity standards",
+    "settings": {"minLength": 8, "complexity": "medium"},
+    "groupIds": ["grp012"],
+    "groupNames": ["Sales"],
+    "created": "2023-01-01T10:00:00Z",
+    "lastUpdated": "2023-06-01T11:00:00Z"
+  },
+  {
+    "id": "pol134",
+    "name": "Engineering Management",
+    "description": "Engineering managers policy",
+    "settings": {"minLength": 10, "complexity": "high"},
+    "groupIds": ["grp013"],
+    "groupNames": ["Eng Managers"],
+    "created": "2023-03-15T09:30:00Z",
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "pol135",
+    "name": "Temporary Accounts",
+    "description": "Lighter restrictions for temp accounts",
+    "settings": {"minLength": 6, "complexity": "low"},
+    "groupIds": ["grp014"],
+    "groupNames": ["Temps"],
+    "created": "2023-07-01T08:00:00Z",
+    "lastUpdated": "2023-12-10T09:00:00Z"
+  },
+  {
+    "id": "pol136",
+    "name": "Intern Policy",
+    "description": "Policy for interns",
+    "settings": {"minLength": 6, "complexity": "low"},
+    "groupIds": ["grp015"],
+    "groupNames": ["Interns"],
+    "created": "2023-05-01T10:00:00Z",
+    "lastUpdated": "2023-08-01T11:00:00Z"
+  },
+  {
+    "id": "pol137",
+    "name": "Executive Policy",
+    "description": "Extra secure settings for executives",
+    "settings": {"minLength": 12, "complexity": "very-high"},
+    "groupIds": ["grp016"],
+    "groupNames": ["Executives"],
+    "created": "2023-02-20T07:00:00Z",
+    "lastUpdated": "2024-02-01T08:00:00Z"
+  }
+]

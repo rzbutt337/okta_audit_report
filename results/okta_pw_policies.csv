@@ -1,0 +1,16 @@
+Timestamp,Policy_id,Policy_name,Policy_description,Min_length,Complexity,Scoped_group_ids,Scoped_group_names,Created,Last_updated
+2025-07-27T14:17:35.272590,pol123,Default Policy,Standard Okta password policy,8,high,"grp001, grp002","Admins, Users",2023-06-01T12:00:00Z,2024-01-10T15:00:00Z
+2025-07-27T14:17:35.272658,pol124,Strict Policy,High security enforcement,12,very-high,grp003,Privileged Users,2023-06-05T14:00:00Z,2024-01-11T12:00:00Z
+2025-07-27T14:17:35.272680,pol125,Legacy Users Policy,Policy for older user groups,6,medium,grp004,Legacy Team,2022-01-01T08:00:00Z,2023-03-12T10:00:00Z
+2025-07-27T14:17:35.272696,pol126,External Contractors,Looser restrictions for external vendors,8,low,grp005,Vendors,2022-07-15T11:00:00Z,2023-08-30T09:00:00Z
+2025-07-27T14:17:35.272710,pol127,Admin Tier 1,Admin-level password complexity,10,high,grp006,Tier 1 Admins,2023-02-10T12:00:00Z,2023-11-20T13:00:00Z
+2025-07-27T14:17:35.272724,pol128,Dev Team Policy,Specific policy for software engineers,9,medium,grp007,Developers,2023-03-03T10:30:00Z,2024-01-05T16:00:00Z
+2025-07-27T14:17:35.272738,pol129,Finance Policy,High complexity for finance users,10,very-high,grp008,Finance Dept,2023-04-01T07:45:00Z,2024-02-14T10:00:00Z
+2025-07-27T14:17:35.272751,pol130,Marketing Policy,Marketing department password policy,8,medium,grp009,Marketing,2022-12-20T11:00:00Z,2023-10-01T14:00:00Z
+2025-07-27T14:17:35.272765,pol131,HR Team Policy,Policy for HR staff,9,high,grp010,Human Resources,2022-05-25T09:00:00Z,2023-05-25T09:00:00Z
+2025-07-27T14:17:35.272779,pol132,Support Policy,Customer support password rules,7,medium,grp011,Support,2022-08-08T13:00:00Z,2023-09-10T14:00:00Z
+2025-07-27T14:17:35.272793,pol133,Sales Policy,Sales team complexity standards,8,medium,grp012,Sales,2023-01-01T10:00:00Z,2023-06-01T11:00:00Z
+2025-07-27T14:17:35.272806,pol134,Engineering Management,Engineering managers policy,10,high,grp013,Eng Managers,2023-03-15T09:30:00Z,2024-01-15T10:30:00Z
+2025-07-27T14:17:35.272820,pol135,Temporary Accounts,Lighter restrictions for temp accounts,6,low,grp014,Temps,2023-07-01T08:00:00Z,2023-12-10T09:00:00Z
+2025-07-27T14:17:35.272833,pol136,Intern Policy,Policy for interns,6,low,grp015,Interns,2023-05-01T10:00:00Z,2023-08-01T11:00:00Z
+2025-07-27T14:17:35.272846,pol137,Executive Policy,Extra secure settings for executives,12,very-high,grp016,Executives,2023-02-20T07:00:00Z,2024-02-01T08:00:00Z
